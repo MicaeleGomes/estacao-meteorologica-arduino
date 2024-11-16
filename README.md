@@ -57,8 +57,8 @@ Os detalhes completos das calibrações e das medições podem ser encontrados n
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/MicaeleGomes/estacao-meteorologica-com-arduino.git
-   cd estacao-meteorologica-com-arduino
+   git clone https://github.com/MicaeleGomes/estacao-meteorologica-arduino.git
+   cd estacao-meteorologica-arduino
 
 2. Abra o arquivo no Arduino IDE:
    -  Certifique-se de que o nome do arquivo `.ino` corresponde à pasta do projeto.
