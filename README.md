@@ -42,14 +42,10 @@ Se você deseja obter maior precisão nos dados para sua aplicação, pode reali
 ### Ajustes realizados:
 
 1. **LM35**: Fórmula ajustada para compensar pequenos desvios no sensor analógico:
-   \[
-   \text{Temperatura (ºC)} = 98.29368086 \cdot \text{tensão (V)} + 0.029367031
-   \]
+   Temperatura (ºC) = 98.29368086 * tensão (V) + 0.029367031
 
 2. **DHT22**: Ajuste da umidade para maior precisão:
-   \[
-   \text{Umidade (%) ajustada} = 1.232 \cdot \text{umidade lida} - 13.169
-   \]
+   Umidade (%) ajustada = 1.232 * umidade lida - 13.169
 
 3. **BMP280**:
    - Pressão convertida para **hPa** com duas casas decimais.
@@ -61,7 +57,7 @@ Os detalhes completos das calibrações e das medições podem ser encontrados n
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/estacao-meteorologica-com-arduino.git
+   git clone https://github.com/MicaeleGomes/estacao-meteorologica-com-arduino.git
    cd estacao-meteorologica-com-arduino
 
 2. Abra o arquivo no Arduino IDE:
